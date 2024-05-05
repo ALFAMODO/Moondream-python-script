@@ -14,7 +14,7 @@ app = FastAPI()
 # Configure CORS to allow requests from specific origins (e.g., frontend applications)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow requests from the Next.js app
+    allow_origins=["https://www.alfamodo.com/"],  # Allow requests from the Next.js app
     allow_methods=["GET", "POST"],  # Allow HTTP GET and POST methods
     allow_headers=["*"],  # Allow all headers
 )
